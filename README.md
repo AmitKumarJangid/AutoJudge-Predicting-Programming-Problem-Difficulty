@@ -50,10 +50,10 @@ Keyword-based indicators (graph, dp, tree, greedy, etc.)
 
 2. Models Used
    
-Task	:     Classification	 
+Task	:     Classification	 ,
 Model :    Random Forest Classifier
 
-Task :     Regression
+Task :     Regression   ,
 Model :    Extra Trees Regressor
 
 Both models are trained using scikit-learn pipelines.
