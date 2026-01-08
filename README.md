@@ -22,7 +22,7 @@ The system includes a Streamlit web interface for interactive usage.
 # Machine Learning Approach
 1. Feature Engineering
 
-Combined textual fields:
+(A)Combined textual fields:
 
 Problem title
 
@@ -36,7 +36,7 @@ Sample input/output (if available)
 
 TF-IDF vectorization for text
 
-Handcrafted features:
+(B)Handcrafted features:
 
 Character count
 
@@ -50,9 +50,11 @@ Keyword-based indicators (graph, dp, tree, greedy, etc.)
 
 2. Models Used
    
-Task	            Model
-Classification	  Random Forest Classifier
-Regression	      Extra Trees Regressor
+Task	:     Classification	 
+Model :    Random Forest Classifier
+
+Task :     Regression
+Model :    Extra Trees Regressor
 
 Both models are trained using scikit-learn pipelines.
 
