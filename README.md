@@ -25,18 +25,27 @@ The system includes a Streamlit web interface for interactive usage.
 Combined textual fields:
 
 Problem title
+
 Problem description
+
 Input description
+
 Output description
+
 Sample input/output (if available)
 
 TF-IDF vectorization for text
 
 Handcrafted features:
+
 Character count
+
 Word count
+
 Digit count
+
 Math symbol frequency
+
 Keyword-based indicators (graph, dp, tree, greedy, etc.)
 
 2. Models Used
@@ -67,13 +76,17 @@ Built using Streamlit
 Accepts:
 
 Problem title
+
 Problem description
+
 Input format
+
 Output format
 
 Displays:
 
 Predicted difficulty class
+
 Predicted numerical score
 
 # Project Structure
@@ -116,9 +129,13 @@ streamlit run app.py
 🛠️ Technologies Used
 
 Python 3
+
 scikit-learn
+
 pandas, numpy
+
 Streamlit
+
 Pickle / Joblib
 
 
